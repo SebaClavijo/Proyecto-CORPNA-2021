@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway:wght@300&family=Roboto:wght@300&display=swap');
+
+.barra-navegacion{
+    background-color: rgb(216, 234, 245);
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.opciones-nav{
+    color: rgb(31, 28, 28);
+}
+
+.h1-propiedades{
+    color: rgb(14, 97, 252);
+    font-weight: bold;
+    /* font-family: Helvetica, sans-serif; */
+    font-family: 'Noto Serif', serif;
+    font-size: 55px;
+    font-style: italic;
+}
+
+h2{
+    font-family: Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(26, 64, 235);
+}
+
+footer{
+    background-color: rgb(46, 43, 43);
+    color: white;
+    font-size: 20px;
+}
+.logo-redes{
+    color: rgb(112, 185, 245);
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.textarea{
+    width: 50%;
+    height: 25vh;
+}
+
+/*Tamaño de los input y color de la letra con la que va a escribir el usuario.*/
+.input{
+    width: 250px;
+    color: blue;
+}
+
+.button{
+    width: 75px;
+    height: 40px;
+    background-color: rgb(14, 36, 233);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.text-form{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.img-contacto{
+    width: 50%;
+    height: 30vh;
+    margin-top: 25px;
+}
+
+/*Animación al emblema*/
+.img-emblema{
+    transition: ease-in-out;
+}
+.img-emblema:hover{
+    transform: scale(1.2) translateX(80px);
+    
+}
+
+/* Mobile */
+@media all and (max-width: 600px){
+    img{
+       margin-left: 25px;
+    }
+
+    i{
+        margin-left: 50px;
+    }
+    footer>p{
+        margin-left: 25px;
+    }
+}
